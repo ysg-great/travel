@@ -7,10 +7,12 @@ import fastClick from 'fastClick'
 import './assets/styles/reset.css'
 import './assets/styles/border.css'
 import './assets/styles/iconfont.css'
-
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
 Vue.config.productionTip = false
+// 插件
 fastClick.attach(document.body)
-
+Vue.use(VueAwesomeSwiper)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
